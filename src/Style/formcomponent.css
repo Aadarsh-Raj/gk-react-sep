@@ -77,11 +77,12 @@ button:disabled {
 
 @media screen and (max-width: 750px) {
   .form-component {
-    padding: 3rem;
+    padding: 1rem;
     width: 100%;
   }
   form {
     width: 100%;
+    padding: 5px;
   }
   .image-container {
     display: none;
