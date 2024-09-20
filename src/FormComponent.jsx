@@ -9,10 +9,10 @@ const FormComponent = () => {
       .required("Name is required")
       .min(2, "Name must be at least 2 characters long"),
     email: Yup.string()
-      .oneOf(["arya@gmail.com"], "Email must be arya@gmail.com")
+      .oneOf(["regex@gmail.com"], "Email must be arya@gmail.com")
       .required("Email is required"),
     password: Yup.string()
-      .oneOf(["arya@01"], "Password should be arya@01")
+      .oneOf(["rishiME@199"], "Password should be arya@01")
       .required("Password is required"),
     confirmPassword: Yup.string()
       .oneOf([Yup.ref("password")], "Passwords must match")
